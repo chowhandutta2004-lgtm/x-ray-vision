@@ -51,7 +51,7 @@ The particle system uses an object pool of 2000 particles that spawn on face and
 
 ## Demo
 
-<video src="x-ray-demo.mp4" controls width="100%"></video>
+https://github.com/chowhandutta2004-lgtm/x-ray-vision/raw/master/x-ray-demo.mp4
 
 > Hit **Space** while scanning to capture your own X-ray screenshots!
 
