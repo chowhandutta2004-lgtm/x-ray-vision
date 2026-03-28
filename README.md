@@ -1,5 +1,9 @@
 # X-Ray Vision
 
+## Demo
+
+https://github.com/chowhandutta2004-lgtm/x-ray-vision/releases/download/v1.0.0/x.ray.demo.mp4
+
 Ever wanted to see through things like a superhero? Well, this doesn't *actually* do that — but it looks pretty sick.
 
 This is a real-time webcam app that turns your camera feed into an X-ray-style visualization. Just raise both hands in front of the camera, and a scan zone appears between them. Inside that zone, you get a full-on sci-fi X-ray effect with skeleton tracking, face mesh contours, glowing particles, and animated scan lines.
@@ -48,12 +52,6 @@ The app loads three MediaPipe models — face landmarker (468 points), hand land
 When both hands are detected, a rectangle is computed from the middle finger tips (top corners) and wrists (bottom corners). Everything inside that rectangle gets the X-ray treatment — grayscale + edge detection + color grading + skeleton overlay + particles.
 
 The particle system uses an object pool of 2000 particles that spawn on face and body landmarks. No allocations during runtime, so it stays smooth.
-
-## Demo
-
-https://github.com/chowhandutta2004-lgtm/x-ray-vision/raw/master/x-ray-demo.mp4
-
-> Hit **Space** while scanning to capture your own X-ray screenshots!
 
 ---
 
