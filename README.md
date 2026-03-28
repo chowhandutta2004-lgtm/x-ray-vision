@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://github.com/chowhandutta2004-lgtm/x-ray-vision/releases/download/v1.0.0/x.ray.demo.mp4
+https://github.com/user-attachments/assets/98b0d89a-7608-4502-90d9-8e550e0abc9f
 
 Ever wanted to see through things like a superhero? Well, this doesn't *actually* do that — but it looks pretty sick.
 
