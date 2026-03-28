@@ -49,9 +49,11 @@ When both hands are detected, a rectangle is computed from the middle finger tip
 
 The particle system uses an object pool of 2000 particles that spawn on face and body landmarks. No allocations during runtime, so it stays smooth.
 
-## Screenshots
+## Demo
 
-Try it yourself — hit **Space** while scanning to capture your own X-ray screenshots!
+<video src="x-ray-demo.mp4" controls width="100%"></video>
+
+> Hit **Space** while scanning to capture your own X-ray screenshots!
 
 ---
 
